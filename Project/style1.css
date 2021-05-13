@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Dancing+Script&family=Lobster&family=Londrina+Outline&family=Open+Sans&family=Pacifico&family=Roboto:wght@100&family=Tangerine:wght@700&family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap');
+
+body
+{
+	margin: 0;
+        background-color: #ffdead;
+}
+
+.navbar
+{
+	background-color: rgb(40,40,40);
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        border-botom: 10px solid black;
+}
+
+.navbar > a 
+{
+	color: rgb(250, 249, 246);
+	text-decoration: none;
+	padding: 0 2% 0 2%;
+        font-family: Cairo;
+        font-size: 20px;
+}
+
+.navbar > a:hover, .postbutton:hover, .removebtn:hover, .removeuserbtn:hover
+{
+        background: rgb(250, 249, 246);
+        color: rgb(35,43,43);
+}
+
+.afterlogin
+{
+    padding: 0.1% 1% 0 1%;
+    font-size: 20px;
+    float: right;
+    font-family: Cairo;
+    color: tomato;
+    
+}
+
+h1
+{
+	font-family: Roboto;
+	text-align: center;
+        color: rgb(56,56,56);
+        letter-spacing: 4px;
+        font-size: 45px;
+}
+
+h2
+{
+	font-family: Roboto, cursive;
+}
+
+.forms
+{
+	background: rgb(64,64,64);
+	margin: 0 auto 0 auto;
+	width: 30%;
+	padding: 5% 0 5% 0;
+}
+
+.loginform
+{
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+.loginfield
+{
+	width: 97%;
+	padding: 2% 1% 2% 1%;
+	font-size: 20px;
+}
+
+.loginbutton
+{
+	border: none;
+	background: rgb(250, 249, 246);
+        color: rgb(35,43,43);
+	outline:none;
+	font-size: 15px;
+	padding:3% 7% 3% 7%;
+}
+
+#check-lemail, #check-lpass, #check_rfname, #check_rlname, #check_remail, #check-adminuname, #check-adminpass, #check_rpass
+{ 
+	font-size: 18px;
+        font-family: Roboto;
+        color: orange;
+        padding: 0.5% 0 0.5% 0;
+}
+
+#check_rpass1, #check_rpass2, #check_rpass3, #check_rpass4, #check_rpass5 
+{ 
+	font-size: 16px;
+        font-family: Roboto;
+        color: orange;
+}
+
+.articles
+{
+        border: 2px solid rgb(96,96,96);
+	margin: 5% auto 5% auto;
+	padding: 1% 2% 1% 2%;
+        background: #fffaf0; 
+        overflow: hidden;
+        width: 70%;
+        box-shadow: 5px 10px 30px; 
+        font-size: 22px;
+}
+
+.aid
+{
+	padding: 1% 1% 1% 1%;
+	color: rgb(104,104,104);
+	font-family: Roboto;
+}
+
+.adate
+{
+	padding: 1% 1% 1% 1%;
+	color: navy;
+	font-family: Cairo;
+        font-weight: bold;
+}
+
+.aauthor
+{
+	padding: 1% 1% 1% 1%;
+	color: #DC143C;
+	font-family: Cairo;
+        font-weight: bold;
+}
+
+.atitle
+{
+	padding: 1% 1% 1% 1%;
+	color: rgb(64,64,64);
+	font-family: Cairo;
+        font-weight: bold;
+}
+
+.acontent
+{
+	padding: 1% 1% 1% 1%;
+	color: rgb(40,40,40);
+	font-family: Cairo;
+}
+
+#user-table
+{
+	border: 1px solid green; 
+	width: 80%; 
+	margin: 5% auto auto auto;
+	border-collapse: collapse;
+	background: #fff8dc; 
+}
+
+.ttdd > td
+{
+	border: 1px solid;
+	text-align: center;
+	font-family: Cairo;
+	font-size: 23px;
+	padding: 1% 1% 1% 1%; 
+}
+
+.forms1
+{
+	background: rgba(0, 102, 82, 0.2);
+	margin: 0 auto 0 auto;
+	width: 85%;
+	padding: 2% 0 2% 0;
+}
+
+#title_u
+{
+	margin: 0 0 0 4%;
+	padding: 1% 1% 1% 1%;
+	width: 90%;
+	font-size: 19px;
+	font-family: verdana;
+	border: 2px solid rgb(48,48,48);
+}
+
+#content_u
+{
+	margin: 0 0 0 4%;
+	padding: 1% 1% 1% 1%;
+	width: 90%;
+	font-size: 19px;
+	font-family: verdana;
+	color: black;
+	border: 2px solid rgb(48,48,48);
+	white-space: pre-wrap;
+}
+
+.postbutton
+{
+	border: none;
+        border-radius: 7px;
+	background: rgb(48,48,48);
+	color: white;
+	outline:none;
+	font-size: 22px;
+	padding:0.5% 3% 0.5% 3%;
+	margin: 0 0 0 4%;
+        font-family: Cairo;
+}
+
+.removebtn
+{
+    border: none; 
+    font-size: 16px; 
+    padding: 5px 10px 5px 10px; 
+    float: right; 
+    background: rgb(48,48,48);
+    color: white; 
+    font-family: Cairo;
+    border-radius: 5px;
+}
+
+.removeuserbtn
+{
+    border: none; 
+    font-size: 16px; 
+    padding: 5px 15px 5px 15px; 
+    background: rgb(48,48,48);
+    color: white; 
+    font-family: Cairo;
+    border-radius: 5px;
+}
+
+.introduction
+{
+    width: 60%;
+    margin: 1% auto 10% auto;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #313639;
+}
+
+.images1
+{
+    margin: 2% auto 2% auto;
+    width: 60%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.images1 > a > img
+{
+    width: 32%;
+    padding: 1.8%;
+    float: left;
+}
+
+.images1 > a > img:hover
+{
+    width: 34%;
+    padding: 1%;
+}
+
+.images1 > span
+{
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    float: right;
+    padding-top: 15%;
+    color: #525C65;
+}
+
+.images2
+{
+    height: 200px;
+    padding: 0 0 10% 0;
+}
+
+.images2 > div
+{
+    width: 33%;
+    margin: auto;
+    display: inline-block;
+}
+
+.ii1, .ii2, .ii3
+{
+    width: 36%;
+    padding-top: 8%;
+    margin: auto;
+    display: block;
+}
+
+.ii1:hover, .ii2:hover, .ii3:hover
+{
+    padding-top: 6%;
+    width: 38%;
+}
+
+.images2 > div > div
+{
+    width: 90%;
+    margin: auto;
+    font-family: Roboto;
+    font-size: 25px;
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer
+{
+    background: #313639;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.copyright, .authorname
+{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.6%;
+}
+ 
+.copyright
+{
+    color: #ffdead;
+    font-size: 18px;
+}
+
+.authorname
+{
+    color: #ffdead;
+    font-size: 19px;
+}
+
+.i111
+{
+    width: 20%;
+    padding: 5% 5% 2% 5%;
+    margin: auto;
+}
+.authorcontact
+{
+    width: 10%;
+    margin: auto;
+}
+
+.i222
+{
+    width: 22%;
+    padding: 5% 5% 2% 5%;
+    margin: auto;
+}

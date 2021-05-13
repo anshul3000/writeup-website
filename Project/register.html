@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="posts.php">Posts</a>
+	<a href="admin-login.html" style="float: right;">Admin-Login</a>
+	<a href="user-login.html" style="float: right;">Login</a>
+</div>
+<br /><br /><br />
+<h1>Sign-up</h1>
+<div class="forms">
+	<form action="register-process.php" method="post" class="loginform" onsubmit="return !!(val_rfname() & val_rlname() & val_remail() & val_rpass());">
+		<input type="text" placeholder="Firstname" name="reg-fname" class="loginfield" id="rfname">
+		<br />
+		<div id="check_rfname">&nbsp;</div>
+		<br />
+		<input type="text" placeholder="Lastname" name="reg-lname" class="loginfield" id="rlname">
+		<br />
+		<div id="check_rlname">&nbsp;</div>
+		<br />
+		<input type="email" placeholder="Email ID" name="reg-email" class="loginfield" id="remail">
+		<br />
+		<div id="check_remail">&nbsp;</div>
+		<br />
+		<input type="password" placeholder="Password" name="reg-pass" class="loginfield" id="rpass">
+		<br />
+		<div id="check_rpass"><b>Rules for password:</b></div>
+		<br />
+		<div id="check_rpass1">Length between 6 - 18 &nbsp;&nbsp;<span id="tlen">&nbsp;</span></div>
+		<div id="check_rpass2">Atleast one uppercase letter &nbsp;&nbsp;<span id="tup">&nbsp;</span></div>
+		<div id="check_rpass3">Atleast one lowercase letter &nbsp;&nbsp;<span id="tlow">&nbsp;</span></div>
+		<div id="check_rpass4">Atleast one digit &nbsp;&nbsp;<span id="tdg">&nbsp;</span></div>
+		<div id="check_rpass5">Atleast one special character &nbsp;&nbsp;<span id="tsp">&nbsp;</span></div>
+		<br />
+		<input type="submit" class="loginbutton" value="Register">
+	</form>
+</div>
+<footer>
+    <div class="copyright">&copy; 2021</div>
+    <div class="authorname">Anshul Kothari</div>
+    <div class="authorcontact">
+        <a href="https://instagram.com/kotharianshul03?igshid=1o4cr3dr50di2" target="_blank"><img src="insta.png" alt="" class="i111"/></a>
+        <a href="https://www.linkedin.com/in/anshul-kothari-14bb721a3/" target="_blank"><img src="linkedin.png" alt="" class="i111"/></a>
+        <a href="https://github.com/anshul3000" target="_blank"><img src="github.png" alt="" class="i222"/></a>
+    </div>
+</footer>
+<script src="validate.js"></script>
+</body>
+</html>

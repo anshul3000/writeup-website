@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin-Login</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="posts.php">Posts</a>
+	<a href="user-login.html" style="float: right;">Login</a>
+	<a href="register.html" style="float: right;">Sign-up</a>
+</div>
+<br /><br /><br />
+<h1>Admin-Login</h1>
+<div class="forms">
+	<form action="admin-login-process.php" method="post" class="loginform" onsubmit="return !!(val_adminuname() & val_adminpass());">
+		<input type="text" placeholder="Username" name="admin-username" class="loginfield" id="admin-uname">
+		<br />
+		<div id="check-adminuname"> &nbsp;</div>
+		<br />
+		<input type="password" placeholder="Password" name="admin-password" class="loginfield" id="admin-pass">
+		<br />
+		<div id="check-adminpass"> &nbsp;</div>
+		<br />
+		<input type="submit" class="loginbutton" value="Login">
+	</form>
+</div>
+<footer>
+    <div class="copyright">&copy; 2021</div>
+    <div class="authorname">Anshul Kothari</div>
+    <div class="authorcontact">
+        <a href="https://instagram.com/kotharianshul03?igshid=1o4cr3dr50di2" target="_blank"><img src="insta.png" alt="" class="i111"/></a>
+        <a href="https://www.linkedin.com/in/anshul-kothari-14bb721a3/" target="_blank"><img src="linkedin.png" alt="" class="i111"/></a>
+        <a href="https://github.com/anshul3000" target="_blank"><img src="github.png" alt="" class="i222"/></a>
+    </div>
+</footer>
+<script src="validate.js"></script>
+</body>
+</html>
